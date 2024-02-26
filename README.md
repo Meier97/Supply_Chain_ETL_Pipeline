@@ -6,7 +6,7 @@ ETL-Pipeline für Lagerbestands- und Verkaufsdaten
 
 Überblick
 
-Dieses Repository enthält eine ETL (Extract, Transform, Load)-Pipeline zur Verarbeitung von Lagerbestands- und Verkaufsdaten. Die Pipeline ermöglicht die Extraktion von Daten aus einer CSV-Datei, deren Transformation für eine Staging-Datenbank und schließlich deren Laden in ein finales Datenbankschema.
+Dieses Repository enthält eine ETL (Extract, Transform, Load)-Pipeline zur Verarbeitung von Lagerbestands- und Verkaufsdaten. Die Pipeline ermöglicht die Extraktion von Daten aus einer CSV-Datei, deren Transformation für eine Staging-Datenbank und schließlich deren Laden in ein finales Datenbankschema. Die Daten für dieses Projekt sind keine echten Daten, sondern zwecks Demonstration der ETL-Pipeline von Kaggle runtergelandene Daten. Quelle: https://www.kaggle.com/datasets/shreydevil/supply-chain
 
 Funktionalitäten
 
@@ -72,7 +72,7 @@ Dieses Projekt wurde von Meier97 entwickelt.
 ETL pipeline for inventory and sales data.
 
 Overview
-This repository contains an ETL (Extract, Transform, Load) pipeline for processing inventory and sales data. The pipeline facilitates data extraction from a CSV file, their transformation for a staging database, and finally loading into a final database schema.
+This repository contains an ETL (Extract, Transform, Load) pipeline for processing inventory and sales data. The pipeline facilitates data extraction from a CSV file, their transformation for a staging database, and finally loading into a final database schema. The data used for this project only serves demonstration purposes and does not represent real-life transacttions. Source: https://www.kaggle.com/datasets/shreydevil/supply-chain
 
 Features
 Import of inventory and sales data from a CSV file
