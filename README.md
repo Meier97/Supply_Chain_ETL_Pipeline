@@ -49,7 +49,7 @@ Datenimport: Beginnen Sie mit dem Import der Rohdaten. Platzieren Sie die CSV-Da
 
 Datenverarbeitung und Upload in die Staging-Datenbank: Führen Sie die Skripte Data_Upload_Inventory.py und Data_Upload_Orders.py aus, um die Daten zu transformieren und in die Staging-Datenbank hochzuladen. Überprüfen Sie die SQL-Skripte sql_staging_inventory.sql und sql_staging_orders.sql für die Struktur der Staging-Datenbanktabellen.
 
-Datenherunterladen und Transformation für das finale Datenbankschema: Führen Sie das Skript Data_Transformation.py aus, um die Daten aus der Staging-Datenbank herunterzuladen, zu transformieren und in das finale Datenbankschema hochzuladen. Überprüfen Sie das SQL-Skript sql_scm_database.sql für die Struktur des finalen Datenbankschemas.
+Daten herunterladen und Transformation für das finale Datenbankschema: Führen Sie das Skript Data_Transformation.py aus, um die Daten aus der Staging-Datenbank herunterzuladen, zu transformieren und in das finale Datenbankschema hochzuladen. Überprüfen Sie das SQL-Skript sql_scm_database.sql für die Struktur des finalen Datenbankschemas.
 
 Explorative Datenanalyse (EDA): Verwenden Sie das Jupyter Notebook EDA_inventory.ipynb, um eine explorative Datenanalyse der Lagerbestandsdaten durchzuführen.
 
