@@ -61,6 +61,7 @@ Bitte beachten Sie, dass für die Ausführung der Pipeline Python, SQL und Jupyt
 
 Hinweis
 Stellen Sie sicher, dass Sie Zugriff auf eine laufende Datenbank haben, um die Daten zu laden.
+Die Datei project_credentials.py ist hier nicht enthalten, da es sich hierbei um persönliche Anmeldeinformationen handelt, die individuell angepasst werden müssen.
 
 Beitrag
 Fragen, Anregungen oder Verbesserungsvorschläge sind jederzeit willkommen! Zögern Sie nicht, ein Issue zu öffnen oder einen Pull-Request einzureichen.
@@ -82,8 +83,10 @@ Download and re-transformation of data for the final database schema
 Visualization of data with Power BI
 Conducting exploratory data analysis (EDA)
 Prediction of future inventory using an XGBoost algorithm
+
 Directory Structure
 bash
+
 Copy code
 |- data/
 |  |- inventory.csv              # Raw data
@@ -125,6 +128,7 @@ Ensure that you have Python, SQL, and Jupyter Notebook (for EDA) installed befor
 
 Note
 Ensure that you have access to a running database to load the data.
+The file project_credentials.py is not included in here since it contains personal login credentials that have to be adapted individually.
 
 Contribution
 Questions, suggestions, or improvements are always welcome! Feel free to open an issue or submit a pull request.
